@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Owehttamy",
+	"parent": "block/double_slab_column",
+	"textures": {
+		"side": "block/quartz_block_top",
+		"end": "block/quartz_block_side"
+	}
+}

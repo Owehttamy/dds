@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Owehttamy",
+	"parent": "block/double_slab_all_faces",
+	"textures": {
+		"all": "block/deepslate_tiles"
+	}
+}
