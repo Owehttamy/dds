@@ -1,21 +1,7 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "block/cube_all",
+	"parent": "dds:block/parent_double_slab_mirror",
 	"textures": {
 		"all": "block/bamboo_mosaic"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#all"},
-				"east": {"uv": [16, 0, 0, 16], "texture": "#all"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#all"},
-				"west": {"uv": [16, 0, 0, 16], "texture": "#all"},
-				"up": {"uv": [16, 0, 0, 16], "texture": "#all"},
-				"down": {"uv": [16, 0, 0, 16], "texture": "#all"}
-			}
-		}
-	]
+	}
 }

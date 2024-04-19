@@ -1,6 +1,6 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "block/double_slab_all_faces",
+	"parent": "dds:block/parent_double_slab_all",
 	"textures": {
 		"0": "block/sandstone_top",
 		"1": "block/cut_sandstone",

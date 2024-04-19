@@ -1,0 +1,79 @@
+Hey! Thanks for downloading the mod.
+
+To add compatibility with this resource pack to any modded slabs, follow these directions:
+1. Open the assets folder
+2. Make a copy of the "mod_template" folder
+3. Rename the copied folder to the mod's *codename*
+If you don't know the mod's codename, enter a creative world with commands enabled and "/give" yourself the item. For example, if you did "/give @s slabsexpanded:acacia_log_slab", the mod's codename is "slabsexpanded"
+4. Open the folder you just renamed, then open the "blockstates" folder
+5. Rename the "modded_slab.json" file to whatever the name of the slab was in the /give command
+So, in my instance, it would be "acacia_log_slab.json"
+6. Open the renamed JSON file and change every instance of "modded_slab" with your modded block
+In my instance, the file would look like this:
+
+{
+    "variants": {
+        "type=bottom": { "model": "block/acacia_log_slab" },
+        "type=top": { "model": "block/acacia_log_slab_top" },
+        "type=double": { "model": "block/double_acacia_log_slab" }
+    }
+}
+
+7. ***SAVE*** and close the JSON file
+8. Leave the "blockstates" folder and now navigate to the "models" folder, then open the "blocks" folder inside of it
+9. Same thing as the last JSON file; rename it to your modded block
+In my instance, it would be "double_acacia_log_slab.json"
+10. Open the JSON file and replace "modded_block" with the FULL-BLOCK VARIATION of your slab
+This is because slab textures are tied to the full block's texture; slabs don't have their own texture.
+For example, my file would look like this:
+
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/parent_double_slab_all",
+	"parent": "dds:block/parent_double_slab_column",
+	"parent": "dds:block/parent_double_slab_mirror",
+	"textures": {
+		"all": "minecraft:block/acacia_log"
+	}
+}
+
+NOT like this:
+
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/parent_double_slab_all",
+	"parent": "dds:block/parent_double_slab_column",
+	"parent": "dds:block/parent_double_slab_mirror",
+	"textures": {
+		"all": "minecraft:block/acacia_log_slab"
+	}
+}
+
+11a. If the block has the same texture on all sides of the block, remove the "parent": "minecraft:block/double_slab_column" and "parent": "block/double_slab_mirror" lines. **REMOVE THE ENTIRE LINES OF TEXT**
+11b. If the block is a "column" block, and has two different textures—one on the top and bottom, and another on the sides, remove the "parent": "minecraft:block/double_slab_all_faces" and "parent": "block/double_slab_mirror" lines. **REMOVE THE ENTIRE LINES OF TEXT**
+11c. If you want the block's texture to be mirrored when it's a double slab, remove the "parent": "minecraft:block/double_slab_all_faces" and "parent": "minecraft:block/double_slab_column" lines. **REMOVE THE ENTIRE LINES OF TEXT**
+Here's an example of what my file looks like, since it's a "column" block:
+
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/parent_double_slab_column",
+	"textures": {
+		"all": "minecraft:block/acacia_log"
+	}
+}
+
+12. If your modded slab is based of a block from the vanilla game, like the one I've used in the above examples, skip this step. If your slab is based off a modded block, change the part that says "minecraft:" on the fifth line of the file to the mod's codename.
+This is because the game needs to know where the texture of the block is in the files, and it will look in Minecraft's files instead of the mods, which won't work.
+For example:
+
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/parent_double_slab_column",
+	"textures": {
+		"all": "supplementaries:block/checker_block"
+	}
+}
+
+13. Save the file, then press F3 and T simultaneously to have Minecraft reload the resource pack to see if the changes work. If they didn't, don't be scared to contact me on Discord: @owehttamy
+
+Okay, you get the deal. Have fun! :)
