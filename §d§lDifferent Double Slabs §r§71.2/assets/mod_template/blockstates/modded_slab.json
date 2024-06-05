@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "block/modded_slab" },
-        "type=top": { "model": "block/modded_slab_top" },
-        "type=double": { "model": "block/double_modded_slab" }
+        "type=bottom": { "model": "mod_name:block/modded_slab" },
+        "type=top": { "model": "mod_name:block/modded_slab_top" },
+        "type=double": { "model": "mod_name:block/double_modded_slab" }
     }
 }

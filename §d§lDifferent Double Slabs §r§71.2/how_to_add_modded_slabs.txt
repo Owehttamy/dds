@@ -13,9 +13,9 @@ In my instance, the file would look like this:
 
 {
     "variants": {
-        "type=bottom": { "model": "block/acacia_log_slab" },
-        "type=top": { "model": "block/acacia_log_slab_top" },
-        "type=double": { "model": "block/double_acacia_log_slab" }
+        "type=bottom": { "model": "slabsexpanded:block/acacia_log_slab" },
+        "type=top": { "model": "slabsexpanded:block/acacia_log_slab_top" },
+        "type=double": { "model": "slabsexpanded:block/double_acacia_log_slab" }
     }
 }
 

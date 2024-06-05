@@ -4,6 +4,6 @@
 	"parent": "dds:block/parent_double_slab_column",
 	"parent": "dds:block/parent_double_slab_mirror",
 	"textures": {
-		"all": "minecraft:block/modded_block"
+		"all": "mod_name:block/modded_block"
 	}
 }
