@@ -34,6 +34,8 @@ For example, my file would look like this:
 	"parent": "dds:block/parent_double_slab_mirror",
 	"textures": {
 		"all": "minecraft:block/acacia_log"
+		"side": "minecraft:block/acacia_log",
+		"end": "minecraft:block/acacia_log_top"
 	}
 }
 
@@ -46,34 +48,91 @@ NOT like this:
 	"parent": "dds:block/parent_double_slab_mirror",
 	"textures": {
 		"all": "minecraft:block/acacia_log_slab"
+		"side": "minecraft:block/acacia_log_slab",
+		"end": "minecraft:block/acacia_log_slab_top"
 	}
 }
 
-11a. If the block has the same texture on all sides of the block, remove the "parent": "minecraft:block/double_slab_column" and "parent": "block/double_slab_mirror" lines. **REMOVE THE ENTIRE LINES OF TEXT**
-11b. If the block is a "column" block, and has two different textures—one on the top and bottom, and another on the sides, remove the "parent": "minecraft:block/double_slab_all_faces" and "parent": "block/double_slab_mirror" lines. **REMOVE THE ENTIRE LINES OF TEXT**
-11c. If you want the block's texture to be mirrored when it's a double slab, remove the "parent": "minecraft:block/double_slab_all_faces" and "parent": "minecraft:block/double_slab_column" lines. **REMOVE THE ENTIRE LINES OF TEXT**
-Here's an example of what my file looks like, since it's a "column" block:
+11. Now, we need to tell the game how we want it to change how the slab appears. We will do this by telling the game to use preset models—or "parent" models—that I've created.
+If you don't care about understanding what exactly you're doing, just skip to step 11a.
+A very important note is that you can only tell the game to use one parent model, because otherwise, you're giving the game multiple different directions of how to change the block's model, and it will become confused. In short, every model in Minecraft lost one of their parents in a tragic car accident, and they absolutely will NOT allow their remaining parent to get remarried.
+Also, if your block has only one texture on all sides, we're going to be removing the "side" and "end" lines because we only need to tell it the "all" texture, not what's on the *sides* and *ends* (top and bottom) of the block.
+If your block is a column and has two different textures, we're gonna remove the "all" line, because there is not one single texture that covers *all* sides of the block.
+
+11a. If the block has the same texture on all sides of the block and you want the texture to be rotated 90° when it's a double slab, keep reading this step. If not, go to step 11b.
+Remove the following lines:  **MAKE SURE TO REMOVE THE ENTIRE LINES OF TEXT**
+
+	"parent": "dds:block/parent_double_slab_column",
+	"parent": "dds:block/parent_double_slab_mirror",
+		"side": "mod_name:block/modded_block",
+		"end": "mod_name:block/modded_block_top"
+
+The file should look like this:
+
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/parent_double_slab_all",
+	"textures": {
+		"all": "mod_name:block/modded_block"
+	}
+}
+
+Once done, skip to step 12.
+
+11b. If the block is a "column" block, and has two different textures—one on the top and bottom, and another on the sides, keep reading this step. If not, go to step 11c.
+Remove the following lines:  **MAKE SURE TO REMOVE THE ENTIRE LINES OF TEXT**
+
+	"parent": "dds:block/parent_double_slab_all",
+	"parent": "dds:block/parent_double_slab_mirror",
+		"all": "mod_name:block/modded_block"
+
+The file should look like this:
 
 {
 	"credit": "Created by Owehttamy",
 	"parent": "dds:block/parent_double_slab_column",
 	"textures": {
-		"all": "minecraft:block/acacia_log"
+		"side": "mod_name:block/modded_block",
+        "end": "mod_name:block/modded_block_top"
 	}
 }
 
-12. If your modded slab is based of a block from the vanilla game, like the one I've used in the above examples, skip this step. If your slab is based off a modded block, change the part that says "minecraft:" on the fifth line of the file to the mod's codename.
-This is because the game needs to know where the texture of the block is in the files, and it will look in Minecraft's files instead of the mods, which won't work.
+Once done, skip to step 12.
+
+11c. If the block has the same texture on all sides of the block and you want the block's texture to be mirrored when it's a double slab, remove the following lines:  **MAKE SURE TO REMOVE THE ENTIRE LINES OF TEXT**
+
+	"parent": "dds:block/parent_double_slab_all",
+	"parent": "dds:block/parent_double_slab_column",
+		"side": "mod_name:block/modded_block",
+		"end": "mod_name:block/modded_block_top"
+
+The file should look like this:
+
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/parent_double_slab_mirror",
+	"textures": {
+		"all": "mod_name:block/modded_block"
+	}
+}
+
+12. If your slab is based on a modded block, change the part that says "mod_name:" on the fifth line of the file to the mod's codename. If your modded slab is based on a block from the vanilla game, like the one I've used in the above examples, change that part to "minecraft:".
+This is because the game needs to know where the block's texture is in the files, and it will look in Minecraft's files (or in another incorrect place) instead of the mod's, which won't work.
 For example:
 
 {
 	"credit": "Created by Owehttamy",
 	"parent": "dds:block/parent_double_slab_column",
 	"textures": {
-		"all": "supplementaries:block/checker_block"
+		"side": "stoneexpansion:block/cut_bricks",
+		"end": "stoneexpansion:block/cut_bricks_top"
 	}
 }
 
-13. Save the file, then press F3 and T simultaneously to have Minecraft reload the resource pack to see if the changes work. If they didn't, don't be scared to contact me on Discord: @owehttamy
+
+13. Save the file, then press F3 and T simultaneously to have Minecraft reload the resource pack to see if the changes work. If they didn't, don't hesitate to contact me on Discord: @owehttamy (Please reach out on Discord if you have issues. There's a high chance that I explained something poorly or the mod you're trying to add support to is formatted poorly, which isn't your fault.)
+
+If you end up adding full support for a mod to this resource pack, contact me on Discord: @owehttamy
+I'd love to add it to the base resource pack to make other people's lives easier! And I'd, of course, credit you in the process :)
 
 Okay, you get the deal. Have fun! :)
