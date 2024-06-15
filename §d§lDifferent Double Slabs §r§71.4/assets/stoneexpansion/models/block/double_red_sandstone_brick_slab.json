@@ -1,0 +1,7 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/parent_double_slab_all",
+	"textures": {
+		"all": "stoneexpansion:block/red_sandstone_bricks"
+	}
+}

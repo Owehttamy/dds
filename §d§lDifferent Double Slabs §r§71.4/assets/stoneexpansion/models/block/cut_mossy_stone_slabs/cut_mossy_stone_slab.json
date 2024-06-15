@@ -1,0 +1,35 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/parent_double_slab_all",
+	"textures": {
+		"0": "stoneexpansion:block/smooth_mossy_stone",
+		"1": "stoneexpansion:block/cut_mossy_stone",
+		"particle": "block/mossy_stone_bricks"
+	},
+	"elements": [
+		{
+			"name": "Slab",
+			"from": [0, 1, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 7], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 7], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 7], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 7], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Bottom Row",
+			"from": [0, 0, 0],
+			"to": [16, 1, 16],
+			"faces": {
+				"north": {"uv": [0, 15, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 15, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 15, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 15, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

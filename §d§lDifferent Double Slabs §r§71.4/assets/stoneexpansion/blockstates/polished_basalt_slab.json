@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/polished_basalt_slab" },
+        "type=top": { "model": "stoneexpansion:block/polished_basalt_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/double_polished_basalt_slab" }
+    }
+}

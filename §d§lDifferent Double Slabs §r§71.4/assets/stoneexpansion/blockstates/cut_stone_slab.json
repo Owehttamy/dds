@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/cut_stone_slabs/cut_stone_slab" },
+        "type=top": { "model": "stoneexpansion:block/cut_stone_slabs/cut_stone_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/cut_stone_slabs/double_cut_stone_slab" }
+    }
+}

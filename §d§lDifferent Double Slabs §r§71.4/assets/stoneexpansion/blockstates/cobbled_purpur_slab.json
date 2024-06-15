@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/cobbled_purpur_slab" },
+        "type=top": { "model": "stoneexpansion:block/cobbled_purpur_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/double_cobbled_purpur_slab" }
+    }
+}

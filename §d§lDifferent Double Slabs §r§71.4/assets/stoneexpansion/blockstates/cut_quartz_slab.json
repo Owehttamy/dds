@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/cut_quartz_slabs/cut_quartz_slab" },
+        "type=top": { "model": "stoneexpansion:block/cut_quartz_slabs/cut_quartz_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/cut_quartz_slabs/double_cut_quartz_slab" }
+    }
+}

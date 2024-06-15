@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/dark_red_sandstone_slab" },
+        "type=top": { "model": "stoneexpansion:block/dark_red_sandstone_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/double_dark_red_sandstone_slab" }
+    }
+}

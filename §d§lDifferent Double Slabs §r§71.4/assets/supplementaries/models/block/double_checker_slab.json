@@ -1,0 +1,13 @@
+{
+	"credit": "Created by Owehttamy",
+    "parent": "block/cube",
+    "textures": {
+        "particle": "supplementaries:block/checkerboard2",
+        "down": "supplementaries:block/checkerboard",
+        "up": "supplementaries:block/checkerboard",
+        "north": "supplementaries:block/checkerboard2",
+        "east": "supplementaries:block/checkerboard",
+        "south": "supplementaries:block/checkerboard2",
+        "west": "supplementaries:block/checkerboard"
+    }
+}

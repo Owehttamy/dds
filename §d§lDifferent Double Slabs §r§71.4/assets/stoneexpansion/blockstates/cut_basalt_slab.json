@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/cut_basalt_slabs/cut_basalt_slab" },
+        "type=top": { "model": "stoneexpansion:block/cut_basalt_slabs/cut_basalt_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/cut_basalt_slabs/double_cut_basalt_slab" }
+    }
+}

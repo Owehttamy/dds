@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "supplementaries:block/lapis_bricks_slab" },
+        "type=top": { "model": "supplementaries:block/lapis_bricks_slab_top" },
+        "type=double": { "model": "supplementaries:block/double_lapis_bricks_slab" }
+    }
+}

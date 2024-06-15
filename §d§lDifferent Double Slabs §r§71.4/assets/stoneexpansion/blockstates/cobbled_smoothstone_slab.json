@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/cobbled_smoothstone_slab" },
+        "type=top": { "model": "stoneexpansion:block/cobbled_smoothstone_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/double_cobbled_smoothstone_slab" }
+    }
+}

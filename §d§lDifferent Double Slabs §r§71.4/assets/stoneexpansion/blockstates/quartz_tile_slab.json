@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/quartz_tile_slab" },
+        "type=top": { "model": "stoneexpansion:block/quartz_tile_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/double_quartz_tile_slab" }
+    }
+}

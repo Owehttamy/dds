@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/dark_blackstone_slab" },
+        "type=top": { "model": "stoneexpansion:block/dark_blackstone_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/double_dark_blackstone_slab" }
+    }
+}

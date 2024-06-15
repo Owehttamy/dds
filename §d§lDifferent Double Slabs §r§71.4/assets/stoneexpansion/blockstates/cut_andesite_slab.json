@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "stoneexpansion:block/cut_andesite_slabs/cut_andesite_slab" },
+        "type=top": { "model": "stoneexpansion:block/cut_andesite_slabs/cut_andesite_slab_top" },
+        "type=double": { "model": "stoneexpansion:block/cut_andesite_slabs/double_cut_andesite_slab" }
+    }
+}
