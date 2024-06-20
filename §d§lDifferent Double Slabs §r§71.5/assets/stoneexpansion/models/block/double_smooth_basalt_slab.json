@@ -2,6 +2,6 @@
 	"credit": "Created by peo",
 	"parent": "dds:block/all_90",
 	"textures": {
-		"all": "minecraft:block/smooth_basalt"
+		"all": "block/smooth_basalt"
 	}
 }

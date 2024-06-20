@@ -2,6 +2,6 @@
 	"credit": "Created by peo",
 	"parent": "dds:block/all_90",
 	"textures": {
-		"all": "minecraft:block/cracked_stone_bricks"
+		"all": "block/cracked_stone_bricks"
 	}
 }
