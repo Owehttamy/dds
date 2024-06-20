@@ -1,6 +1,6 @@
 {
-	"credit": "Created by peo",
-	"parent": "dds:block/column_90",
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/column_stacked/top",
 	"textures": {
 		"side": "stoneexpansion:block/cut_mud",
 		"end": "stoneexpansion:block/cut_mud_top"
