@@ -1,6 +1,5 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "block/cube_column",
 	"elements": [
 		{
 			"from": [0, 0, 0],

@@ -1,9 +1,8 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "block/cube_column",
 	"elements": [
 		{
-			"name": "Top",
+			"name": "Slab",
 			"from": [0, 9, 0],
 			"to": [16, 16, 16],
 			"faces": {
@@ -15,31 +14,9 @@
 			}
 		},
 		{
-			"name": "Top Row",
+			"name": "Bottom Row",
 			"from": [0, 8, 0],
 			"to": [16, 9, 16],
-			"faces": {
-				"north": {"uv": [0, 15, 16, 16], "texture": "#side", "cullface": "north"},
-				"east": {"uv": [0, 15, 16, 16], "texture": "#side", "cullface": "east"},
-				"south": {"uv": [0, 15, 16, 16], "texture": "#side", "cullface": "south"},
-				"west": {"uv": [0, 15, 16, 16], "texture": "#side", "cullface": "west"}
-			}
-		},
-		{
-			"name": "Bottom",
-			"from": [0, 1, 0],
-			"to": [16, 8, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 7], "texture": "#side", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 7], "texture": "#side", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 7], "texture": "#side", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 7], "texture": "#side", "cullface": "west"}
-			}
-		},
-		{
-			"name": "Bottom Row",
-			"from": [0, 0, 0],
-			"to": [16, 1, 16],
 			"faces": {
 				"north": {"uv": [0, 15, 16, 16], "texture": "#side", "cullface": "north"},
 				"east": {"uv": [0, 15, 16, 16], "texture": "#side", "cullface": "east"},
