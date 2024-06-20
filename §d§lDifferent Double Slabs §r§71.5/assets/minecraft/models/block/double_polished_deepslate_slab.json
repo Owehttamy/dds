@@ -1,6 +1,6 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "dds:block/parent_double_slab_all",
+	"parent": "dds:block/all_90",
 	"textures": {
 		"all": "block/polished_deepslate"
 	}

@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/parent_double_slab_mirror",
+	"parent": "dds:block/all_mirror",
 	"textures": {
 		"all": "stoneexpansion:block/end_stone_tiles"
 	}

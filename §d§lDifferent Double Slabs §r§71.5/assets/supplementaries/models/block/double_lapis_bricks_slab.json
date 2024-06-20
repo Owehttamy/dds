@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/parent_double_slab_all",
+	"parent": "dds:block/all_90",
 	"textures": {
 		"all": "supplementaries:block/lapis_bricks"
 	}

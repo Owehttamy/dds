@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/parent_double_slab_column",
+	"parent": "dds:block/column_90",
 	"textures": {
 		"side": "stoneexpansion:block/cut_prismarine",
 		"end": "stoneexpansion:block/cut_prismarine_top"

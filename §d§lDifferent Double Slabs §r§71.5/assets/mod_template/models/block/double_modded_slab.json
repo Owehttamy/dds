@@ -1,8 +1,8 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "dds:block/parent_double_slab_all",
-	"parent": "dds:block/parent_double_slab_column",
-	"parent": "dds:block/parent_double_slab_mirror",
+	"parent": "dds:block/all_90",
+	"parent": "dds:block/column_90",
+	"parent": "dds:block/all_mirror",
 	"textures": {
 		"all": "mod_name:block/modded_block"
 		"side": "mod_name:block/modded_block",
