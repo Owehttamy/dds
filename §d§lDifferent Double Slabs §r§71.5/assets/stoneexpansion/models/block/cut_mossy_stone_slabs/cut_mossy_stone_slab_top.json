@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/top",
 	"textures": {
 		"side": "stoneexpansion:block/cut_mossy_stone",
-		"end": "stoneexpansion:block/smooth_mossy_stone",
-		"particle": "block/mossy_stone_bricks"
+		"end": "stoneexpansion:block/smooth_mossy_stone"
 	}
 }

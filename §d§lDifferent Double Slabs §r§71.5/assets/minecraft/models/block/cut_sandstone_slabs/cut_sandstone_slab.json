@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/bottom",
 	"textures": {
 		"side": "block/cut_sandstone",
-		"end": "block/sandstone_top",
-		"particle": "block/sandstone_top"
+		"end": "block/sandstone_top"
 	}
 }

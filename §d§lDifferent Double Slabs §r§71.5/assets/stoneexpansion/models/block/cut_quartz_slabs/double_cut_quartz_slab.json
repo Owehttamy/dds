@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/double",
 	"textures": {
 		"side": "stoneexpansion:block/cut_quartz",
-		"end": "block/quartz_block_top",
-		"particle": "block/chiseled_quartz_block"
+		"end": "block/quartz_block_top"
 	}
 }

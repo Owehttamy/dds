@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/bottom",
 	"textures": {
 		"side": "stoneexpansion:block/cut_blackstone",	
-		"end": "block/polished_blackstone",
-		"particle": "block/blackstone"
+		"end": "block/polished_blackstone"
 	}
 }

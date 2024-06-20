@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/double",
 	"textures": {
 		"side": "stoneexpansion:block/cut_purpur",
-		"end": "stoneexpansion:block/polished_purpur",
-		"particle": "block/purpur_block"
+		"end": "stoneexpansion:block/polished_purpur"
 	}
 }

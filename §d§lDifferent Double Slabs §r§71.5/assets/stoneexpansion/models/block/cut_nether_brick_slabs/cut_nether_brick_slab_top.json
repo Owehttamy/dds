@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/top",
 	"textures": {
 		"side": "stoneexpansion:block/cut_nether_bricks",
-		"end": "stoneexpansion:block/smooth_nether_bricks",
-		"particle": "stoneexpansion:block/smooth_nether_bricks"
+		"end": "stoneexpansion:block/smooth_nether_bricks"
 	}
 }

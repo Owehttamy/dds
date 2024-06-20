@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/bottom",
 	"textures": {
 		"side": "stoneexpansion:block/cut_andesite",
-		"end": "stoneexpansion:block/smooth_andesite",
-		"particle": "block/andesite"
+		"end": "stoneexpansion:block/smooth_andesite"
 	}
 }

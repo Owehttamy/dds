@@ -1,5 +1,8 @@
 {
 	"credit": "Created by Owehttamy",
+	"textures": {
+		"particle": "#all"
+	},
 	"elements": [
 		{
 			"from": [0, 0, 0],

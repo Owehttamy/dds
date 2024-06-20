@@ -3,7 +3,6 @@
 	"parent": "dds:block/column_stacked/bottom",
 	"textures": {
 		"side": "stoneexpansion:block/cut_prismarine",
-		"end": "stoneexpansion:block/smooth_prismarine",
-		"particle": "stoneexpansion:block/smooth_prismarine"
+		"end": "stoneexpansion:block/smooth_prismarine"
 	}
 }
