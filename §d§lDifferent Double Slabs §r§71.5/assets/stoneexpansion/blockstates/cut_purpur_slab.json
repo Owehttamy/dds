@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "stoneexpansion:block/cut_purpur_slabs/cut_purpur_slab" },
-        "type=top": { "model": "stoneexpansion:block/cut_purpur_slabs/cut_purpur_slab_top" },
-        "type=double": { "model": "stoneexpansion:block/cut_purpur_slabs/double_cut_purpur_slab" }
+        "type=bottom": { "model": "stoneexpansion:block/cut_purpur_slab/bottom" },
+        "type=top": { "model": "stoneexpansion:block/cut_purpur_slab/top" },
+        "type=double": { "model": "stoneexpansion:block/cut_purpur_slab/double" }
     }
 }

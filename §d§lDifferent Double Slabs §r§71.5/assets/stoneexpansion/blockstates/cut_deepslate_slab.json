@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "stoneexpansion:block/cut_deepslate_slabs/cut_deepslate_slab" },
-        "type=top": { "model": "stoneexpansion:block/cut_deepslate_slabs/cut_deepslate_slab_top" },
-        "type=double": { "model": "stoneexpansion:block/cut_deepslate_slabs/double_cut_deepslate_slab" }
+        "type=bottom": { "model": "stoneexpansion:block/cut_deepslate_slab/bottom" },
+        "type=top": { "model": "stoneexpansion:block/cut_deepslate_slab/top" },
+        "type=double": { "model": "stoneexpansion:block/cut_deepslate_slab/double" }
     }
 }

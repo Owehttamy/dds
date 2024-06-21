@@ -1,6 +1,6 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "dds:block/column_90",
+	"parent": "dds:block/column/90",
 	"textures": {
 		"side": "block/quartz_block_top",
 		"end": "block/quartz_block_side"

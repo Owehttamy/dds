@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "stoneexpansion:block/cut_blackstone_slabs/cut_blackstone_slab" },
-        "type=top": { "model": "stoneexpansion:block/cut_blackstone_slabs/cut_blackstone_slab_top" },
-        "type=double": { "model": "stoneexpansion:block/cut_blackstone_slabs/double_cut_blackstone_slab" }
+        "type=bottom": { "model": "stoneexpansion:block/cut_blackstone_slab/bottom" },
+        "type=top": { "model": "stoneexpansion:block/cut_blackstone_slab/top" },
+        "type=double": { "model": "stoneexpansion:block/cut_blackstone_slab/double" }
     }
 }

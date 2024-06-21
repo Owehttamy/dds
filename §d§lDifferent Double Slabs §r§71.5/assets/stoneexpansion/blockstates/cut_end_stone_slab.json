@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "stoneexpansion:block/cut_end_stone_slabs/cut_end_stone_slab" },
-        "type=top": { "model": "stoneexpansion:block/cut_end_stone_slabs/cut_end_stone_slab_top" },
-        "type=double": { "model": "stoneexpansion:block/cut_end_stone_slabs/double_cut_end_stone_slab" }
+        "type=bottom": { "model": "stoneexpansion:block/cut_end_stone_slab/bottom" },
+        "type=top": { "model": "stoneexpansion:block/cut_end_stone_slab/top" },
+        "type=double": { "model": "stoneexpansion:block/cut_end_stone_slab/double" }
     }
 }

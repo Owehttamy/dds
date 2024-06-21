@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/all_mirror",
+	"parent": "dds:block/all/mirror",
 	"textures": {
 		"all": "clutter:block/spruce_mosaic"
 	}

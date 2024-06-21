@@ -1,8 +1,0 @@
-{
-	"credit": "Created by peo",
-	"parent": "dds:block/column_stacked/bottom",
-	"textures": {
-		"side": "stoneexpansion:block/cut_purpur",
-		"end": "stoneexpansion:block/polished_purpur"
-	}
-}

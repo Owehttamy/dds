@@ -1,0 +1,8 @@
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/column/stacked/top",
+	"textures": {
+		"side": "block/cut_sandstone",
+		"end": "block/sandstone_top"
+	}
+}

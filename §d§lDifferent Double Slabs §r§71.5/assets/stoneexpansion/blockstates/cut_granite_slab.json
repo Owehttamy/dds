@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "stoneexpansion:block/cut_granite_slabs/cut_granite_slab" },
-        "type=top": { "model": "stoneexpansion:block/cut_granite_slabs/cut_granite_slab_top" },
-        "type=double": { "model": "stoneexpansion:block/cut_granite_slabs/double_cut_granite_slab" }
+        "type=bottom": { "model": "stoneexpansion:block/cut_granite_slab/bottom" },
+        "type=top": { "model": "stoneexpansion:block/cut_granite_slab/top" },
+        "type=double": { "model": "stoneexpansion:block/cut_granite_slab/double" }
     }
 }

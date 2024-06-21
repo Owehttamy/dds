@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/column_90",
+	"parent": "dds:block/column/90",
 	"textures": {
 		"side": "stoneexpansion:block/cut_end_stone",
 		"end": "stoneexpansion:block/cut_end_stone_top"

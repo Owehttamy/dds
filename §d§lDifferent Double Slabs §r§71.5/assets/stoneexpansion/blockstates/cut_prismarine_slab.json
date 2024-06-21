@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "stoneexpansion:block/cut_prismarine_slabs/cut_prismarine_slab" },
-        "type=top": { "model": "stoneexpansion:block/cut_prismarine_slabs/cut_prismarine_slab_top" },
-        "type=double": { "model": "stoneexpansion:block/cut_prismarine_slabs/double_cut_prismarine_slab" }
+        "type=bottom": { "model": "stoneexpansion:block/cut_prismarine_slab/bottom" },
+        "type=top": { "model": "stoneexpansion:block/cut_prismarine_slab/top" },
+        "type=double": { "model": "stoneexpansion:block/cut_prismarine_slab/double" }
     }
 }

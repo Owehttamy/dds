@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/all_90",
+	"parent": "dds:block/all/90",
 	"textures": {
 		"all": "twigs:block/bloodstone"
 	}

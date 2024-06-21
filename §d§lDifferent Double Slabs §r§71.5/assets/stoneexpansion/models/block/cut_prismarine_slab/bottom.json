@@ -1,0 +1,8 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/column/stacked/bottom",
+	"textures": {
+		"side": "stoneexpansion:block/cut_prismarine",
+		"end": "stoneexpansion:block/smooth_prismarine"
+	}
+}
