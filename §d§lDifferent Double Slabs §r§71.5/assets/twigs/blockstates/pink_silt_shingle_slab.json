@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "twigs:block/pink_silt_shingle_slab" },
+        "type=top": { "model": "twigs:block/pink_silt_shingle_slab_top" },
+        "type=double": { "model": "twigs:block/double_pink_silt_shingle_slab" }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/column_90",
+	"textures": {
+		"side": "twigs:block/rhyolite_side",
+		"end": "twigs:block/rhyolite_top"
+	}
+}

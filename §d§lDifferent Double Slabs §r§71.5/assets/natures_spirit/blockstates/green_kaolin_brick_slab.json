@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "natures_spirit:block/green_kaolin_brick_slab" },
+        "type=top": { "model": "natures_spirit:block/green_kaolin_brick_slab_top" },
+        "type=double": { "model": "natures_spirit:block/double_green_kaolin_brick_slab" }
+    }
+}

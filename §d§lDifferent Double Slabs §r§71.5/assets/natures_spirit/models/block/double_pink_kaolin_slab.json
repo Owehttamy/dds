@@ -1,0 +1,7 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/all_90",
+	"textures": {
+		"all": "natures_spirit:block/pink_kaolin"
+	}
+}

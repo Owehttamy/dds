@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "twigs:block/calcite_slab" },
+        "type=top": { "model": "twigs:block/calcite_slab_top" },
+        "type=double": { "model": "twigs:block/double_calcite_slab" }
+    }
+}

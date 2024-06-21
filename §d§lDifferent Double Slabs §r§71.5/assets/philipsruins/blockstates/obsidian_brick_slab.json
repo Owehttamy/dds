@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "philipsruins:block/obsidian_brick_slab" },
+        "type=top": { "model": "philipsruins:block/obsidian_brick_slab_top" },
+        "type=double": { "model": "philipsruins:block/double_obsidian_brick_slab" }
+    }
+}

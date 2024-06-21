@@ -1,0 +1,7 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/all_mirror",
+	"textures": {
+		"all": "clutter:block/mangrove_mosaic"
+	}
+}

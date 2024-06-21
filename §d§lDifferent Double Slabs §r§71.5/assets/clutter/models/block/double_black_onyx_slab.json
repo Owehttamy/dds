@@ -1,0 +1,7 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/all_90",
+	"textures": {
+		"all": "clutter:block/black_onyx_block"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "natures_spirit:block/chert_brick_slab" },
+        "type=top": { "model": "natures_spirit:block/chert_brick_slab_top" },
+        "type=double": { "model": "natures_spirit:block/double_chert_brick_slab" }
+    }
+}

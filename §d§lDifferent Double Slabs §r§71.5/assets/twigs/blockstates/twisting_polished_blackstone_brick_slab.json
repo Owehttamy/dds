@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "twigs:block/twisting_polished_blackstone_brick_slab" },
+        "type=top": { "model": "twigs:block/twisting_polished_blackstone_brick_slab_top" },
+        "type=double": { "model": "twigs:block/double_twisting_polished_blackstone_brick_slab" }
+    }
+}

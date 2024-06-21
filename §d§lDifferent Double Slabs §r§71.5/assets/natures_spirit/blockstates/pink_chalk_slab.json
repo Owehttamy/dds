@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "natures_spirit:block/pink_chalk_slab" },
+        "type=top": { "model": "natures_spirit:block/pink_chalk_slab_top" },
+        "type=double": { "model": "natures_spirit:block/double_pink_chalk_slab" }
+    }
+}

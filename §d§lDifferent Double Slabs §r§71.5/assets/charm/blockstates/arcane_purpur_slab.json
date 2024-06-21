@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "charm:block/arcane_purpur_slab" },
+        "type=top": { "model": "charm:block/arcane_purpur_slab_top" },
+        "type=double": { "model": "charm:block/double_arcane_purpur_slab" }
+    }
+}

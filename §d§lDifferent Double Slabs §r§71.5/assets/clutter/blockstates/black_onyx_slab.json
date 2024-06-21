@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "clutter:block/black_onyx_slab" },
+        "type=top": { "model": "clutter:block/black_onyx_slab_top" },
+        "type=double": { "model": "clutter:block/double_black_onyx_slab" }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "twigs:block/tuff_slab" },
+        "type=top": { "model": "twigs:block/tuff_slab_top" },
+        "type=double": { "model": "twigs:block/double_tuff_slab" }
+    }
+}

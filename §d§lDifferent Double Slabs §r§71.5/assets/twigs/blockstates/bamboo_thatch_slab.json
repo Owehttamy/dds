@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "twigs:block/bamboo_thatch_slab" },
+        "type=top": { "model": "twigs:block/bamboo_thatch_slab_top" },
+        "type=double": { "model": "twigs:block/double_bamboo_thatch_slab" }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "natures_spirit:block/sugi_mosaic_slab" },
+        "type=top": { "model": "natures_spirit:block/sugi_mosaic_slab_top" },
+        "type=double": { "model": "natures_spirit:block/double_sugi_mosaic_slab" }
+    }
+}

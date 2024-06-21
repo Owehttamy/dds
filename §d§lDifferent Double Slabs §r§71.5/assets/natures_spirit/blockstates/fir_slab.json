@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "natures_spirit:block/fir_slab" },
+        "type=top": { "model": "natures_spirit:block/fir_slab_top" },
+        "type=double": { "model": "natures_spirit:block/double_fir_slab" }
+    }
+}

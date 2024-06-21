@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "natures_spirit:block/evergreen_thatch_slab" },
+        "type=top": { "model": "natures_spirit:block/evergreen_thatch_slab_top" },
+        "type=double": { "model": "natures_spirit:block/double_evergreen_thatch_slab" }
+    }
+}

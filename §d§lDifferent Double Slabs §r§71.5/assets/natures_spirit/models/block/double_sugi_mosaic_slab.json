@@ -1,0 +1,7 @@
+{
+	"credit": "Created by peo",
+	"parent": "dds:block/all_mirror",
+	"textures": {
+		"all": "natures_spirit:block/sugi_mosaic"
+	}
+}

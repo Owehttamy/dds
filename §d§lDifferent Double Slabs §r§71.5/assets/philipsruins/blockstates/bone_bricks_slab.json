@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "philipsruins:block/bone_bricks_slab" },
+        "type=top": { "model": "philipsruins:block/bone_bricks_slab_top" },
+        "type=double": { "model": "philipsruins:block/double_bone_bricks_slab" }
+    }
+}

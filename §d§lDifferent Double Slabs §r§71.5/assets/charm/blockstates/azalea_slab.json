@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "charm:block/azalea_slab" },
+        "type=top": { "model": "charm:block/azalea_slab_top" },
+        "type=double": { "model": "charm:block/double_azalea_slab" }
+    }
+}
