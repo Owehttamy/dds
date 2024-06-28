@@ -2,7 +2,7 @@
 	"credit": "Created by Owehttamy",
 	"textures": {
 		"all": "natures_spirit:block/coconut_thatch",
-		"ends": "natures_spirit:block/coconut_thatch_end",
+		"thatch": "natures_spirit:block/coconut_thatch_end",
 		"particle": "natures_spirit:block/coconut_thatch"
 	},
 	"elements": [
@@ -25,18 +25,8 @@
 			"to": [16, 0, 0],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 0]},
 			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "north"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "north"}
-			}
-		},
-		{
-			"name": "South",
-			"from": [0, -16, 16],
-			"to": [16, 0, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 16]},
-			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "south"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "south"}
+				"north": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "north"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "north"}
 			}
 		},
 		{
@@ -45,8 +35,18 @@
 			"to": [16, 0, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, -16, 0]},
 			"faces": {
-				"east": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "east"},
-				"west": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "east"}
+				"east": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "east"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "east"}
+			}
+		},
+		{
+			"name": "South",
+			"from": [0, -16, 16],
+			"to": [16, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 16]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "south"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "south"}
 			}
 		},
 		{
@@ -55,16 +55,15 @@
 			"to": [0, 0, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 0]},
 			"faces": {
-				"east": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "east"},
-				"west": {"uv": [16, 0, 0, 16], "texture": "#ends", "cullface": "west"}
+				"east": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "east"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#thatch", "cullface": "west"}
 			}
 		}
 	],
-	"display": {},
 	"groups": [
 		0,
 		{
-			"name": "Ends",
+			"name": "Thatch",
 			"origin": [0, -16, 0],
 			"color": 0,
 			"nbt": "{}",
