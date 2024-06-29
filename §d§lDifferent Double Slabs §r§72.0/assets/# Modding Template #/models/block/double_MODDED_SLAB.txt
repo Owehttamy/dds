@@ -1,0 +1,10 @@
+{
+	"credit": "Created by NAME",
+	"parent": "dds:block/all/90",
+	"parent": "dds:block/column/90",
+	"textures": {
+		"all": "MOD_NAME:block/MODDED_BLOCK"
+		"side": "MOD_NAME:block/MODDED_BLOCK",
+		"end": "MOD_NAME:block/MODDED_BLOCK_top"
+	}
+}

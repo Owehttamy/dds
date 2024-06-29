@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "MOD_NAME:block/MODDED_SLAB" },
+        "type=top": { "model": "MOD_NAME:block/MODDED_SLAB_top" },
+        "type=double": { "model": "MOD_NAME:block/double_MODDED_SLAB" }
+    }
+}
