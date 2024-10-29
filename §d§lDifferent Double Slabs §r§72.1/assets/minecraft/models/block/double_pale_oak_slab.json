@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/all/90",
+	"textures": {
+		"all": "block/pale_oak_planks"
+	}
+}
