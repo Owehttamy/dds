@@ -1,6 +1,6 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "dds:block/all/flipped",
+	"parent": "dds:block/all/flip",
 	"textures": {
 		"all": "block/resin_bricks"
 	}

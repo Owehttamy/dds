@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/column/stacked/double",
+	"parent": "dds:block/column/stack/double",
 	"textures": {
 		"side": "stoneexpansion:block/cut_bricks",
 		"end": "stoneexpansion:block/smooth_bricks"

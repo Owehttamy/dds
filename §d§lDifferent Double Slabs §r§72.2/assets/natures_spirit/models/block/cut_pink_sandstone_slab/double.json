@@ -1,6 +1,6 @@
 {
 	"credit": "Created by peo",
-	"parent": "dds:block/column/stacked/double",
+	"parent": "dds:block/column/stack/double",
 	"textures": {
 		"side": "natures_spirit:block/cut_pink_sandstone",
 		"end": "natures_spirit:block/pink_sandstone_top"

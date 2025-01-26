@@ -1,6 +1,6 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "dds:block/column/stacked/double",
+	"parent": "dds:block/column/stack/double",
 	"textures": {
 		"side": "block/cut_sandstone",
 		"end": "block/sandstone_top"
