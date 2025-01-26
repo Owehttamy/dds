@@ -1,6 +1,6 @@
 {
 	"credit": "Created by Owehttamy",
-	"parent": "dds:block/all/90",
+	"parent": "dds:block/all/flipped",
 	"textures": {
 		"all": "block/polished_granite"
 	}
