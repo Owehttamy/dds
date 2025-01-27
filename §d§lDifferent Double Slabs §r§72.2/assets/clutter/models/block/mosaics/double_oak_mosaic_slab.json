@@ -1,6 +1,6 @@
 {
-	"credit": "Created by peo",
-	"parent": "dds:block/all/mirror",
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/all/flip_mirror",
 	"textures": {
 		"all": "clutter:block/oak_mosaic"
 	}

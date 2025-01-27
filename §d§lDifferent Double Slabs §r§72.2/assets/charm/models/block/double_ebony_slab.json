@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/all/90",
+	"textures": {
+		"all": "charm:block/ebony_planks"
+	}
+}

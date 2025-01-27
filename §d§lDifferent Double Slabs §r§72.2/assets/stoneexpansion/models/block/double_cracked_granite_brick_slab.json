@@ -1,6 +1,6 @@
 {
-	"credit": "Created by peo",
-	"parent": "dds:block/all/90",
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/all/flip",
 	"textures": {
 		"all": "stoneexpansion:block/cracked_granite_bricks"
 	}

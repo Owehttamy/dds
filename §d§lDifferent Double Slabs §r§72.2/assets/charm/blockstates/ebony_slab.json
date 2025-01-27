@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "charm:block/ebony_slab" },
+        "type=top": { "model": "charm:block/ebony_slab_top" },
+        "type=double": { "model": "charm:block/double_ebony_slab" }
+    }
+}
