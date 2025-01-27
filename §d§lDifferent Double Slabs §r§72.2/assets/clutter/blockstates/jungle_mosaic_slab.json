@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "clutter:block/mosaics/jungle_mosaic_slab" },
-        "type=top": { "model": "clutter:block/mosaics/jungle_mosaic_slab_top" },
-        "type=double": { "model": "clutter:block/mosaics/double_jungle_mosaic_slab" }
+        "type=bottom": { "model": "clutter:block/jungle_mosaic_slab" },
+        "type=top": { "model": "clutter:block/jungle_mosaic_slab_top" },
+        "type=double": { "model": "clutter:block/double_jungle_mosaic_slab" }
     }
 }

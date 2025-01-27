@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Owehttamy",
+	"parent": "dds:block/all/flip_mirror",
+	"textures": {
+		"all": "clutter:block/redwood_mosaic"
+	}
+}
