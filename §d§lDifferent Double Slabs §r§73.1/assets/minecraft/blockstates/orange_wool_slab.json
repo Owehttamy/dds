@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/orange_wool_slab" },
+        "type=top": { "model": "block/orange_wool_slab_top" },
+        "type=double": { "model": "block/double_orange_wool_slab" }
+    }
+}
