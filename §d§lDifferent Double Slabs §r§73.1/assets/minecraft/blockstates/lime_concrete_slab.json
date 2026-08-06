@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/lime_concrete_slab" },
+        "type=top": { "model": "block/lime_concrete_slab_top" },
+        "type=double": { "model": "block/double_lime_concrete_slab" }
+    }
+}
