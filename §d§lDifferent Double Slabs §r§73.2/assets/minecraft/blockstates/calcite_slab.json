@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/calcite_slab" },
+        "type=top": { "model": "block/calcite_slab_top" },
+        "type=double": { "model": "block/double_calcite_slab" }
+    }
+}
